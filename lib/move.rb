@@ -13,7 +13,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def input_to_index(user_input)
   user_input_position =  user_input.to_i
   converted_input = user_input_position - 1
-  return converted_input
+  # return converted_input
 end
 
 def move(array, index, value = "X")
