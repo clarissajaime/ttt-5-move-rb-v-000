@@ -11,8 +11,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  user_input_position =  user_input.to_i
-  converted_input = user_input_position - 1
+  user_input_position =  user_input.to_i - 1
+  # converted_input = user_input_position - 1
   # return converted_input
 end
 
